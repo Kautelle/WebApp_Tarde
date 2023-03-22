@@ -16,6 +16,10 @@ namespace Webapp_Tarde.Controllers
         {
             return View();
         }
+        public IActionResult Index_cd()
+        {
+            return View();
+        }
 
         public IActionResult Index()
         {
