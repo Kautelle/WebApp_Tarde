@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using Webapp_Tarde.Models;
+using WebApp_tarde.Models;
 
-namespace Webapp_Tarde.Controllers
+namespace WebApp_tarde.Controllers
 {
     public class HomeController : Controller
     {
@@ -12,20 +12,15 @@ namespace Webapp_Tarde.Controllers
         {
             _logger = logger;
         }
-        public IActionResult Login()
-        {
-            return View();
-        }
-        public IActionResult Index_cd()
-        {
-            return View();
-        }
 
         public IActionResult Index()
         {
             return View();
         }
-
+        public IActionResult Login()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

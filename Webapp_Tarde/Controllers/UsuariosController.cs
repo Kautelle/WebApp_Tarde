@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Webapp_Tarde.Controllers
+namespace WebApp_tarde.Controllers
 {
     public class UsuariosController : Controller
     {
@@ -8,9 +8,10 @@ namespace Webapp_Tarde.Controllers
         {
             return View();
         }
-        public IActionResult cadastro()
+        public IActionResult Cadastros()
         {
             return View();
         }
+
     }
 }

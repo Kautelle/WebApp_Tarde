@@ -1,4 +1,4 @@
-namespace Webapp_Tarde.Models
+namespace WebApp_tarde.Models
 {
     public class ErrorViewModel
     {
